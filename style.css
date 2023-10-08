@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@500&family=Dela+Gothic+One&family=Montserrat:wght@500&family=Pixelify+Sans&family=Roboto&family=Roboto+Slab&family=Young+Serif&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;    
+}
+
+.navbar{
+    padding: 30px;
+
+    margin: 2px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgba(167, 145, 4, 0.685);
+    border-radius: 5px;
+}
+
+
+#home{
+    background-color: rgb(0, 251, 255);
+}
+
+#home a{
+    color: white;
+}
+
+#gallery{
+    background-color: rgb(4, 60, 213);  
+}
+
+#gallery a{
+    color: white;
+    
+}
+
+
+.links{
+    border: 1px solid black;
+    margin-left: 3px;
+    margin-right: 3px;
+    display: inline;
+    font-family: 'Young Serif';
+    font-weight: 100;
+    text-transform: uppercase;
+    opacity: 0.7;
+    transition: .4s;
+    float: right;
+}
+
+.links:hover{
+    opacity: 100%;
+    transition: .4s;
+    font-size: larger;
+    font-family: 'Montserrat';
+}
+
+#linksgroup{
+    text-align: center;
+}
+.links a{
+    text-decoration: none;
+}
+
+.banner{
+    background-image: url('images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    
+}
+.bannertext{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    font-family: 'Dela Gothic One';
+}  
+
+.bannertext h2{
+    text-transform: uppercase;
+    color: white;
+    font-size: 4em;
+}
+
+.bannertext h2 span{
+    color: rgb(254, 200, 99);
+
+}
+.bannertext p{
+    color: rgb(251, 200, 105);
+    font-family: 'Roboto';
+}
+
+.banner a{
+    text-decoration:none;
+    display: inline-block;
+    padding: 1em;
+    background-color: rgb(238, 191, 104);
+    margin-top:1em;
+    font-family: 'Segoe UI', sans-serif;
+    color:rgb(19, 15, 15)
+}
+
+.footer{
+    height: 81px;
+    width: 100%;
+    background-color:rgb(238, 191, 104);
+    bottom: 0pt;
+    left: 0pt;
+    border-top: 1px solid black;
+}
+
+.footergallery{
+    height: 79.5px;
+    width: 100%;
+    background-color:rgb(238, 191, 104);
+    bottom: 0pt;
+    left: 0pt;
+    border-top: 1px solid black;
+}
+
+.footertext p{
+
+     font-family: 'Roboto Slab';
+     margin-left: 20px;
+     text-align: left;
+    
+
+}
+
+.footertext img{
+    float: right;
+    border: 0vh solid;
+    padding: 0vh;
+    width: 4vh;
+    height: 4vh;
+    border-radius: 50%;  
+    margin-right: 20px;
+}
+
+
+.logo{
+    border: 0vh solid;
+    padding: 0vh;
+    width: 8vh;
+    height: 8vh;
+    border-radius: 50%;
+    float: left;
+    margin-left: 12vh;
+    margin-top: -4vh;
+
+    background-image: url(images/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallerypage{
+    width: 99.9%;
+    border: 1px solid black;
+}
+
+.gallerypage h1{
+    font-family: 'Pixelify Sans';
+    text-align: center;
+}
+
+.images{
+    margin-top: 8px;
+}
+
+.images img{
+    width: 175px;
+    height: 100;
+}
+
+.top{
+    margin-left: 500px;
+}
+
+.bot{
+    margin-left: 500px;
+}
